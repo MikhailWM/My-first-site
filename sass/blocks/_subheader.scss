@@ -1,0 +1,102 @@
+// subheader
+.subheader {
+	max-height: 700px;
+	background-image: url('../img/bg_1.png'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	&__wrapper {
+		&_menu {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 39px;
+			height: 105px;
+			line-height: 15px;
+			margin-bottom: 27px;
+		}
+		&_content {
+			display: flex;
+			margin-top: 27px;
+			height: 573px;
+			&_left {
+				width: 524px;
+				height: 170px;
+				margin-right: 50px;
+				margin-top: 133px;
+				&_title {
+					width: 529px;
+					margin-top: 0;
+					margin-bottom: 0;
+					color: #ffffff;
+					font-size: 42px;
+					font-weight: 600;
+					line-height: 42px;
+					text-align: left;
+				}
+				&_subtitle {
+					margin-top: 27px;
+					color: #ffffff;
+					font-size: 24px;
+					font-weight: 300;
+					line-height: 30px;
+					text-align: left;
+					// opacity: 0.4;
+					span {
+						color: #ffffff;
+						font-size: 24px;
+						font-weight: 600;
+					}
+				}
+			}
+			&_right {
+				width: 435px;
+				position: relative;
+				&_img {
+					.phone_a {
+						position: absolute;
+						height: 569px;
+						width: 320px;
+						margin-left: 266px;
+					}
+					.phone_b {
+						width: 284px;
+						height: 505px;
+						margin-left: 168px;
+						margin-top: 64px;						
+					}
+				}
+			}
+		}
+	}
+	&__submenu {
+		width: 566px;
+		margin-top: 25px;
+		display: flex;
+		text-align: center;
+		margin-right: 0;
+		&_item {
+			margin-right: 45px;
+			&:nth-child(5) {
+				margin-right: 0;
+			}
+			a {
+				color: #ffffff;
+				font-size: 13px;
+				font-weight: 700;
+				text-align: right;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover {
+					color: blue;
+					font-size: 15px;
+					transition: .6s;
+					text-decoration: underline;
+				}				
+			}
+		}
+	}
+	&__logo {
+		width: 140px;
+		height: 65px;
+	}
+}

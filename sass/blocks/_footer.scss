@@ -1,0 +1,27 @@
+.footer {
+	background: #0082a1;
+	&__title {			
+		font-size: 16px;
+		font-weight: 700;			
+		color: #ffffff;			
+		line-height: 16px;		
+	}
+	&__subtitle {
+		color: #ffffff;		
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 19px;
+	}
+	&__line {
+		background: #4da8bd;
+	}
+	&__copyright {
+		color: #ffffff;		
+		font-size: 13px;
+		font-weight: 300;		
+		line-height: 17px;
+	}
+}
+.mt-5 {
+	margin-top: 80px !important;
+}

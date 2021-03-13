@@ -1,0 +1,57 @@
+.subheader {
+	&__wrapper {
+		&_content {
+			&_left {
+				&_btn {
+					width: 241px;
+					height: 60px;
+					box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+					background-color: #00c2f0;
+					color: #ffffff;		
+					font-size: 16px;
+					font-weight: 700;
+					border-radius: 10px;
+					border: none;	
+					text-transform: uppercase;
+					margin-top: 39px;
+					&:hover {
+						cursor: pointer;
+						transition: .5s;
+						font-size: 18px;
+						color: #00c2f0;
+						background-color: #706077;						
+					}
+				}
+			}			
+		}
+	}
+}
+.touch {
+	&__btn {
+		&_down {
+			color: #ffffff;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 30px;
+			text-align: center;
+			text-transform: uppercase;
+			margin-top: 34px;
+			padding: 24px;
+			width: 241px;
+			height: 60px;
+			box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+			background-color: #00c2f0;
+			border: none;
+			border-radius: 5px;
+			margin-left: 31px;
+			line-height: 16px;
+			&:hover {
+				cursor: pointer;
+				transition: .5s;
+				font-size: 18px;
+				color: #00c2f0;
+				background-color: #706077;
+			}
+		}
+	}
+}

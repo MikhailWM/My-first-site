@@ -1,0 +1,57 @@
+//header
+.container {
+	margin: 0 370px;
+	margin-left: auto;
+    margin-right: auto;	
+}
+.header {
+	max-height: 85px;	
+	padding: 19px 0;
+	display: flex;
+	&__item {
+		display: flex;
+		width: 229px;
+		height: 47px;
+		justify-content: space-between;
+		&:nth-child(5) {
+			margin-right: 0;
+		}
+		&_img {
+			display: inline;
+			margin-right: 10px;
+			width: 28px;
+			height: 21px;
+		}
+		&_content {
+			width: 225px;
+			text-align: left;
+			line-height: 17px;
+			.country {
+				font-size: 14px;
+				font-weight: 900;
+				height: 14px;
+				text-align: left;
+				line-height: 16px;
+			}
+			a {
+				width: 130px;
+				height: 50px;
+				color: #242424;
+				font-size: 12px;
+				font-weight: 300;
+				text-decoration: none;
+				&:hover {
+					color: blue;
+					font-size: 15px;
+					transition: .6s;
+					text-decoration: underline;
+				}				
+			}
+			.addr {
+				font-size: 12px;
+				font-weight: 400;
+			}
+		}
+	}		
+}
+

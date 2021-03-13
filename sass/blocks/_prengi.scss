@@ -1,0 +1,81 @@
+//section prengi
+.prengi {
+	&__card {
+		margin-top: 79px;
+		margin-right: 31px;
+		padding: 0 0 36px 0;
+		width: 359px;
+		height: 255px;
+		border: 1px solid #ececec;
+		&_down {
+			margin-top: 2px;
+			margin-right: 31px;
+			padding: 0 0 36px 0;
+			width: 359px;
+			height: 255px;
+			border: 1px solid #ececec;
+		}
+		&_upimg {
+			margin: 0 84px 0 83px;
+			width: 192px;
+			height: 186px;
+		}
+		&_body {
+			position: relative;
+			width: 178px;
+			height: 93px;
+			&_title {
+				position: absolute;
+				margin: -17px 91px 0 65px;
+				height: 43px;
+				width: 230px;
+				text-align: center;
+				color: #393939;
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 26px;
+				z-index: 1;
+			}
+			&_downimg {
+				position: absolute;
+				margin-left: 266px;
+				margin-top: -29px;
+				width: 93px;
+				z-index: 0;
+			}
+		}
+		
+	}
+	
+}
+
+.offset-4 {
+	margin-left: 32.33%;
+	.arrow {
+		margin-top: 46px;
+		padding: 0 0 36px 0;
+		width: 360px;
+		&__img {
+			display: block;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+		&__card {
+			margin-top: 33px;
+			&_title {
+				color: #393939;
+				font-size: 48px;
+				font-weight: 700;
+				text-align: center;
+				line-height: 48px;
+				text-transform: uppercase;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.down {
+	margin-top: -50px;
+}
+
+

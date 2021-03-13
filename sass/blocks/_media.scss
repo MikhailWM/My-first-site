@@ -1,0 +1,451 @@
+//1024px
+@media (max-width: 1024px) {
+	.header {
+		&__item {
+			position: relative;
+			margin-left: 5px;
+			width: 183px;
+			height: 47px;
+			&:nth-child(1) {
+				width: 143px;
+			}
+			&:nth-child(5) {
+				width: 200px;
+			}
+			&_img {
+				position: absolute;
+				margin-top: -19px;
+				margin-left: 0;
+				width: 28px;
+				height: 21px;
+			}
+			&_content {
+				margin-top: 9px;
+				width: 200px;				
+				a {
+					&:hover {
+						color: blue;
+						font-size: 12px;						
+						text-decoration: underline;
+					}				
+				}
+			}
+		}
+		
+	}
+	.subheader {
+		&__wrapper {
+			&_menu {
+				margin-top: 10px;
+				padding-left: 8px;
+				padding-right: 8px;
+			}
+			&_content {
+				padding-left: 8px;
+				padding-right: 8px;
+				&_right {
+					display: none;
+				}
+				&_left {
+					margin: 80px auto;
+					&_title {
+						text-align: center;
+						line-height: 50px;
+					}
+					&_btn {
+						margin-left: 135px;
+						margin-top: 115px;
+					}
+				}
+			}			
+		}
+		&__logo {
+			a {
+				img {
+					width: 100px;
+				}
+			}
+		}		
+	}
+	.prengi {
+		.g-4 {
+			margin-left: 2px;
+		}
+		&__card {
+			margin-top: 60px;
+			padding: 0px 0 0px 0;
+			width: 238px;
+			height: 247px;
+			&_upimg {
+				margin: 0px 0px 0 19px;
+				width: 200px;
+				height: 190px;
+			}
+			&_body {
+				&_title {
+					margin: -17px 0px 0 0px;
+					height: 41px;
+					width: 232px;
+					font-size: 17px;
+					font-weight: 300;
+					line-height: 22px;
+				}
+				&_downimg {
+					margin-left: 160px;
+					margin-top: -24px;
+					width: 77px;
+				}
+			}
+		}
+		.arrow {
+			&__img {
+				width: 45%;
+				margin-right: 107px;
+			}
+			&__card {
+				&_title {
+					font-size: 41px;
+					line-height: 41px;
+					margin: -17px 0px 0 0px;
+					height: 41px;
+					width: 337px;
+					font-weight: 600;
+				}
+			}
+		}
+		.move {
+			margin-left: 284px;
+		}
+	}
+	.decision {
+		.carousel {
+			margin-top: 44px;
+			background-image: url('../img/macbook_bg.png');
+			height: 540px;
+			&__box {
+				&_slide {
+					&_first {
+						img {
+							margin-top: 35px;
+							margin-left: 18px;
+						}
+					}
+				}
+				&_larrow {
+					position: absolute;
+					top: 46%;
+					transform: translateX(-57px);
+					cursor: pointer;
+					img {
+						width: 16px;
+					}
+				}
+				&_rarrow {
+					position: absolute;
+					top: 46%;
+					transform: translateX(771px);
+					cursor: pointer;
+					img {
+						width: 16px;
+					}
+				}
+			}
+		}
+	}
+	.advantage {
+		&__card {
+			&_color {
+				margin-top: 45px;
+			}
+			.mt-5 {
+				margin-top: 90px !important;
+			}
+		}
+	}
+	.footer {
+		&__company {
+			margin-bottom: 60px;
+			padding-left: 110px;
+		}
+		&__moduls {
+			padding-left: 100px;
+		}
+		&__sectors {
+			padding-left: 110px;
+		}
+		&__about {
+			padding-left: 100px;
+		}
+	}
+}
+
+// 768px
+
+@media (max-width: 768px) {
+	.header {
+		display: none;
+	}
+	.subheader {
+		&__wrapper {
+			&_menu {
+				margin-top: 0;
+				margin-bottom: -68px;
+				padding-top: 14px;
+				align-items: baseline;
+			}
+			&_content {
+				&_left {
+					&_title {
+						font-size: 35px;
+					}
+					&_subtitle {
+						width: 600px;
+						margin-top: 60px;
+						font-size: 19px;
+					}
+					&_btn {
+						margin-left: 160px;
+						width: 186px;
+						margin-top: 82px;
+					}
+				}
+			}
+		}
+		&__logo {
+			img {
+				width: 90px;
+			}
+		}
+		&__submenu {
+			&_item {
+				margin-right: 34px;
+			}
+		}
+	}
+	.prengi {
+		.offset-3 {
+			margin-left: 28% !important;
+		}
+		&__card {
+			margin-top: 60px;
+			padding: 0px 0 0px 0;
+			width: 204px;
+			height: 238px;
+			&_upimg {
+				margin: 0px 0px 0 19px;
+				width: 158px;
+				height: 147px;
+			}
+			&_body {
+				position: relative;
+				width: 159px;
+				height: 93px;
+				&_title {
+					margin: 19px 0px 0 0px;
+					height: 41px;
+					width: 198px;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 22px;					
+				}
+				&_downimg {
+					margin-left: 146px;
+					margin-top: 31px;
+					width: 57px;
+				}
+			}
+		}
+		.arrow {
+			&__img {
+				width: 38%;
+				margin-left: -20px;
+			}
+			&__card {
+				&_title {
+					font-size: 33px;
+					line-height: 24px;
+					margin: 23px 0px 0 0px;
+					height: 41px;
+					width: 147px;
+					margin-left: -26px;
+				}
+			}
+		}
+	}
+	.mx-auto {
+		margin-right: 0 !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		&:nth-child(1) {
+			padding-left: 21px !important;
+		}
+	}
+	.decision {
+		margin-top: 59px;
+		padding-top: 50px;
+		&__title {
+			font-size: 25px;
+		}
+		&__nav {
+			width: 663px;
+			height: 48px;
+			margin-top: 34px;
+			&_items {
+				&_link {
+					padding: 0px 0;
+					height: 32px;
+					font-size: 12px;
+					width: -webkit-fill-available;
+				}
+			}
+		}
+		.carousel {
+			margin-top: 83px;
+			height: 400px;
+			&__box {
+				&_larrow {
+					transform: translateX(-52px);
+				}
+				&_rarrow {
+					transform: translateX(574px);
+				}
+			}
+		}
+	}
+	.advantage {
+		&__title {
+			font-size: 25px;
+		}
+		&__card {
+			&_color {
+				margin-top: 95px;
+			}
+			.mt-5 {
+				margin-top: 126px !important;
+			}
+		}
+		&__items {
+			margin-right: 4px !important;
+			margin-left: 4px !important;
+		}
+		.card-title {
+			font-size: 25px !important;
+		}
+	}
+	.longadvant {
+		&__full {
+			img {
+				height: 432px;
+			}
+		}
+		&__text {
+			&_subtext {
+				font-size: 25px;
+				.subtext {
+					margin-top: 93px;
+				}
+			}
+		}
+		.card-group {
+			.card-body {
+				margin-top: -94px !important;
+				.card-title {
+					&_left {
+						font-size: 25px;
+						line-height: 37px;
+					}
+					&_right {
+						font-size: 25px;
+						line-height: 37px;
+					}
+				}
+				.color_box {
+					&_left {
+						width: 142px;
+						height: 142px;
+						margin-top: -139px;
+						margin-left: 145px;
+					}
+					&_right {
+						width: 142px;
+						height: 142px;
+						margin-top: -139px;
+						margin-left: 0;
+					}
+				}
+			}
+		}
+	}
+	.touch {
+		&__btn {
+			img {
+				width: 200px;
+				margin: 0 auto;
+			}
+			&_down {
+				width: 186px;
+				margin-top: 63px;
+				margin-left: 0;
+				font-size: 14px;
+			}
+		}
+	}
+	.footer {
+		&__company {
+			margin-bottom: 40px;
+			padding-left: 110px;
+		}
+		&__subtitle {
+			font-size: 12px;
+		}
+		&__copyright {
+			font-size: 12px;
+		}
+		&__moduls {
+			padding-left: 50px;
+		}
+	}
+}
+
+//425px
+@media (max-width: 425px) {
+	.subheader {
+		&__submenu {
+			display: none;
+		}
+		&__hamburger {
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 9%;
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+			width: 33px;
+			height: 12px;
+			cursor: pointer;
+			// background: #fff;
+			span {
+				display: block;	
+				height: 2px;
+				width: 100%;
+				background-color: #fff;
+				margin-bottom: 2px;
+				transition: 0.5s all;
+			}
+			&_active {
+				span {
+					margin-bottom: -2px;
+					&:nth-child(1) {
+						transform: translateY(3px) rotate(-45deg);
+					}
+					&:nth-child(2) {
+					display: none;						
+					}
+					&:nth-child(3) {
+					transform: translateY(3px) rotate(45deg);						
+					}
+				}
+			}
+		}
+	}
+}
